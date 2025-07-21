@@ -1,0 +1,38 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.front-table tr {
+    border-collapse: collapse;
+    width: 800px;
+    min-height: 75px;
+    height: 75px;
+}
+
+.front-table td {
+    vertical-align: top;
+}
+
+.front-table td:nth-of-type(1) {
+    width: 300px;
+    font-weight: bold;
+
+}
+
+.front-table td:nth-of-type(2) {
+    width: 500px;
+    padding-left: 25px;
+}
+
+.front-table-header {
+    color: #4b7fa7;
+    padding-bottom: .35em;
+    padding-left: .5em;
+    font-weight: bolder;
+}
+
+.fas {
+    color: #4b7fa7;
+    margin-right: .5em;
+}
